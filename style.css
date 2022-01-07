@@ -10,7 +10,7 @@ body {
 .result{
     border: 5px solid #e4b300;
     border-radius:5%;
-    width:500px;
+    width:700px;
     text-align: center;
     margin: auto;
     height: 470px;
@@ -58,7 +58,9 @@ body {
     display: none;
     left: 25%;
     /* opacity: 80%; */
-    border-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    
   }
   
   .star-wars {
@@ -103,3 +105,10 @@ body {
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
+
+  /* @media only screen and (max-width: 700px) {
+    .result{
+      width: 90% !important;
+      height:fit-content !important;
+    }
+  } */
